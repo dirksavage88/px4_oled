@@ -1,4 +1,4 @@
-# NAVQ ROS 2 OLED example using UXRCE DDS AGENT to PX4
+# ROS 2 OLED example using UXRCE DDS AGENT to PX4
 ## OLED examples using the NXP NavQ plus and ssd1306 oled via ROS 2
 
 You will need to clone px4_msgs(https://github.com/PX4/px4_msgs) and colcon build with this package in the same overlay as px4_msgs
