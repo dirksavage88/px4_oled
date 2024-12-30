@@ -1,6 +1,9 @@
 # ROS 2 OLED example using UXRCE DDS AGENT to PX4
 ## OLED examples using the NXP NavQ plus and ssd1306 oled via ROS 2
-
+Install Luma Dependencies:
+```
+pip install luma.core
+```
 You will need to clone px4_msgs(https://github.com/PX4/px4_msgs) and colcon build with this package in the same overlay as px4_msgs
 
 To run the node and init the OLED, pass in the paramters consisting i2c OLED device info (port and address):
